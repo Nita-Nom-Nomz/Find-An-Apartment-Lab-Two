@@ -35,8 +35,7 @@ def apt_search1(city, max_rent, min_beds, pets_allowed = True):
 
 
 apt_search1 (city = 'Osaka', max_rent = 24200, min_beds = 1, pets_allowed=True)
-
-
+print("\n") # to break up line of text for better readability in console output.
 print("Apartment Search Continued")
 def apt_search2(city, max_rent, min_beds = False, pets_allowed = False):
     if pets_allowed: # if pets are allowed
@@ -51,3 +50,25 @@ def apt_search2(city, max_rent, min_beds = False, pets_allowed = False):
 apt_search2 (city = 'Osaka', max_rent = 24200, pets_allowed=True)
 apt_search2 (city = 'Osaka', max_rent = 24200, min_beds = 1)
 apt_search2 (city = 'Osaka', max_rent = 24200)
+print("\n") # to break up line of text for better readability in console output.
+
+print("Lambda functions")
+def plus_one_hundred(x): # adds 100 to any number
+    return x + 100
+result1 = plus_one_hundred(10)
+print(result1)
+
+def square_num(x): #square any given number
+    return x**2
+result2 = square_num(10)
+print(result2)
+
+
+concatenate = lambda a: - + a # concatenate before any string (* ￣︿￣)
+#result3 = concatenate("-", "a")
+print("-", "a")
+
+def divide_by_three(x): # divides any number by 3
+    return x/3
+result4 = divide_by_three(246)
+print(result4)
